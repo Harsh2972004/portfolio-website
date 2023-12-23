@@ -1,0 +1,169 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15% auto 3%;
+  width: 50%;
+}
+
+.heading-container {
+  width: 50%;
+}
+
+.heading-container h1 {
+  font-size: 50px;
+  color: rgb(34, 34, 34);
+  font-family: coolvetica;
+  padding: 4% 0;
+}
+
+.heading-container p {
+  font-family: coolvetica;
+  font-size: 18px;
+  color: rgb(71, 71, 71);
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 4% 0 8% 0;
+}
+
+.socials:hover {
+  color: black;
+}
+
+.linkedin-logo {
+  color: rgb(71, 71, 71);
+}
+
+.github-logo {
+  margin: 0 15px;
+  color: rgb(71, 71, 71);
+}
+
+.tech-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 5% auto;
+  font-family: coolvetica;
+  font-weight: 900;
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+  padding-right: 40px;
+}
+
+.web-lang-icons {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(2px 2px grey);
+}
+
+.react {
+  width: 75px;
+  height: 60px;
+}
+
+@media screen and (max-width: 1380px) {
+  .home-container {
+    width: 80%;
+  }
+  .tech-container {
+    width: 80%;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .home-container {
+    margin-top: 25%;
+  }
+  .home-container img {
+    width: 280px;
+    height: auto;
+  }
+
+  .heading-container h1 {
+    font-size: 46px;
+  }
+
+  .tech-container {
+    margin-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-container {
+    margin: 35% 7% 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .heading-container {
+    width: 100%;
+  }
+  .home-container img {
+    display: none;
+  }
+
+  .heading-container h1 {
+    font-size: 38px;
+  }
+
+  .tech-container {
+    font-size: 12px;
+    padding-right: 0;
+    margin: 15% 7% 35%;
+    width: 80%;
+  }
+
+  .web-lang-icons {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+
+  .react {
+    width: 65px;
+    height: 50px;
+    margin: 0 -5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home-container {
+    margin: 30% 0 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .heading-container h1 {
+    font-size: 28px;
+    padding: 2.5%;
+  }
+
+  .heading-container p {
+    font-size: 15px;
+    width: 100%;
+    padding: 2% 2.5% 8%;
+  }
+
+  .socials {
+    font-size: 26px;
+  }
+
+  .tech-container {
+    text-align: center;
+    margin: 7% 7% 25%;
+    font-size: 10px;
+  }
+
+  .web-lang-icons {
+    width: 26px;
+    height: 26px;
+  }
+
+  .react {
+    width: 60px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,117 @@
+.nav-container {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3% 7% 2%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all ease 0.5s;
+}
+
+.nav-links a:hover {
+  color: rgb(71, 71, 71);
+}
+
+.logo {
+  font-family: RobotoMono;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logo:hover {
+  scale: 1.05;
+}
+
+.logo:active {
+  transition: all ease 0.1s;
+  scale: 0.98;
+}
+
+.nav-links a {
+  font-family: coolvetica;
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+.navbar-menu {
+  position: relative;
+  display: none;
+}
+
+.navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  padding: 2rem;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menu-links {
+  font-family: coolvetica;
+  font-size: 20px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  z-index: 3;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.navbar-menu-links a {
+  margin-bottom: 10px;
+}
+
+.menu-btn {
+  width: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-container {
+    padding: 3% 7%;
+  }
+  .logo {
+    font-size: 22px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+
+  .navbar-menu_container {
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav-container {
+    padding: 3% 7%;
+  }
+  .logo {
+    font-size: 20px;
+  }
+
+  .menu-btn {
+    width: 25px;
+  }
+}

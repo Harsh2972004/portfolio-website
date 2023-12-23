@@ -1,0 +1,33 @@
+.projects-container {
+  width: 60%;
+  margin: 15% auto;
+  font-family: coolvetica;
+}
+
+.portfolio-head {
+  color: var(--color-heading);
+  font-size: 20px;
+}
+
+.portfolio-text {
+  margin: 5px 0 40px;
+}
+
+@media screen and (max-width: 1380px) {
+  .projects-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .projects-container {
+    margin-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .projects-container {
+    text-align: center;
+    width: 100%;
+  }
+}

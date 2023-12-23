@@ -1,0 +1,50 @@
+@font-face {
+  font-family: helvetica-neu;
+  src: url(assets/fonts/helvetica-neu.ttf);
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(./assets/fonts/CoolveticaRg-Regular.woff);
+}
+
+@font-face {
+  font-family: laBelleAurore;
+  src: url(./assets/fonts/LaBelleAurore.woff2);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(./assets/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+:root {
+  --color-heading: #0077b6;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
