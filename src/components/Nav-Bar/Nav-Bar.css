@@ -105,7 +105,7 @@ a {
 
 @media screen and (max-width: 450px) {
   .nav-container {
-    padding: 3% 7%;
+    padding: 10%;
   }
   .logo {
     font-size: 20px;
